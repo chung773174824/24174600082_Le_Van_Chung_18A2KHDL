@@ -1,0 +1,5 @@
+chuoi_nhap = input("Nhap vao chuoi ky tu: ")
+chuoi_nhap = chuoi_nhap.strip()
+tu = chuoi_nhap.split()
+so_tu = len(tu)
+print("So tu trong chuoi la:", so_tu)
